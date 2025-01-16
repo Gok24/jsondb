@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+table{
+
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+
+}
+td{
+    background: rgb(238, 238, 238);
+}
+th{
+    background: #22a941;
+    color: #fff;
+}
+.editProcessor,.deleteProcessor{
+    padding: 3px 5px;
+    font-family: sans-serif;
+    color: #fff;
+    background: dodgerblue;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+}
+.deleteProcessor{
+    background: rgb(255, 55, 55);
+}
+input{
+    display: block;
+    background: rgb(232, 236, 238);
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0px 5px 10px;
+}
+
+label{
+    margin: 5px 10px 0  10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    background: #fff;
+}
+form button{
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.adder,.updater{
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    max-width: 400px;
+    box-shadow: -10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+}
+.adder h2,.updater h2{
+    font-size: 20px;
+    margin: 10px 15px 0 15px;
+}
+.addfunc{
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #000;
+    font-weight: 500;
+    margin: 10px;
+}

@@ -1,0 +1,15 @@
+{
+    "processors": [
+        {
+            "id": 1,
+            "manufacturer": "AMD",
+            "series": "Ryzen 9",
+            "ig": "Radeon graphics",
+            "cache": "12Mb",
+            "core": "12",
+            "thread": "16",
+            "freq": "4.4GHz",
+            "img": "img.png"
+        }
+    ]
+}
